@@ -4,13 +4,10 @@ Example project created to test the combination of concepts applied in Swift tec
 
 ##  Application Screenshots
 
-<img src="https://user-images.githubusercontent.com/30445599/187040525-9a5f558f-e6f0-4509-90bc-f717b45ed3e2.png" width="200" height="395"><img src="https://user-images.githubusercontent.com/30445599/187040714-4c5e4ff7-c831-4f80-9301-c7c0c28badf6.png" width="200" height="395">
-<img src="https://user-images.githubusercontent.com/30445599/187040531-19d9a12d-26cc-4b7e-a1d1-15086bdffaa9.png" width="200" height="395">
-<img src="https://user-images.githubusercontent.com/30445599/187040546-0916a17d-f852-4c4e-86f3-996b632dabff.png" width="200" height="395">
-
-##  Application Video
-
-https://user-images.githubusercontent.com/30445599/187040757-c659b8e9-389f-4880-90ae-5ff7390e7e21.mp4
+<img src="https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/396a9ad1-3754-4e28-843b-4805583f18fd" width="200" height="395">
+<img src="https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/5eda6adb-580a-4db0-b83b-99a77ef80a04" width="200" height="395">
+<img src="https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/a3a53969-47b7-4bc4-971b-cf8490efdafb" width="200" height="395">
+<img src="https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/6aa4fbac-6260-45ff-a47e-018155b90a3a" width="200" height="395">
 
 ## Architectural base
 
@@ -44,10 +41,6 @@ Where each layer of the architecture has its responsibility defined.
 
   As the proposal of this architecture was that each layer had a well-defined function. the implementation of tests will be facilitated and the maintenance of the architecture as well.
   Since each module only expects one result to be loaded. I can, for example, change the way the networking layer makes HTTPS calls with minimal impact within the viewmodels, I can change data persistence, return mocks to do tests and etc. All this with minimal effort.
-
-### Disadvantages of Architecture:
-
-  As this project is based on Swininject, which is a dependency container registered in the application launcher, it means that, if I need to change who resolves protocol x or y within this container, I will not be able to without restarting the application.
 
 ## Application Modules
 
@@ -100,22 +93,23 @@ A protocol defines a schema of methods, properties, and other requirements that 
 
 Scenes work as a "State Machine", where the view through the "setupUI" offers the possibility for the ViewController and ViewModel layers to change what is being displayed to the user.
 
-![Captura de Tela 2022-08-27 às 15 09 40](https://user-images.githubusercontent.com/30445599/187042953-36be6281-62ab-4861-91be-2d7d4c704929.png)
-![Captura de Tela 2022-08-27 às 15 09 34](https://user-images.githubusercontent.com/30445599/187042967-c88a33f9-6637-43df-b2c4-d5f30b94a6cb.png)
+![Captura de Tela 2023-12-07 às 15 46 01](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/ad1cdad3-2764-420e-b94e-103b6059841b)
+
+![Captura de Tela 2023-12-07 às 15 45 55](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/803991f7-ca55-4746-af5d-05bcdb26c50d)
 
 Let's see the example of Scene below:
 
-![Captura de Tela 2022-08-27 às 15 10 46](https://user-images.githubusercontent.com/30445599/187043146-eb6ceff1-5e47-47d3-9cad-44af10b12b52.png)
+![Captura de Tela 2023-12-07 às 15 45 05](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/2e166fb1-4f72-4f88-948a-6340059ab7d1)
 
 We can already initially notice that the screen construction already reflects the states it has, this construction is important because it helps to avoid "Massive Classes", making the layout of each state is separated and organized by file, being called on demand.
 
 When initiating the API call, the ViewModel already notifies that the screen needs to enter the Load state, which visually reflects to the user.
 
-![Captura de Tela 2022-08-27 às 15 13 29](https://user-images.githubusercontent.com/30445599/187043156-3704326f-2141-4297-9910-38a58bd83a42.png)
+![Captura de Tela 2023-12-07 às 15 43 36](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/1a163de0-1373-4ea4-8f1b-6f3a0076b920)
 
 And when receiving the result, if it is successful, it will update the user's layout again, showing the data received or it will show an error screen.
 
-![Captura de Tela 2022-08-27 às 15 13 48](https://user-images.githubusercontent.com/30445599/187043160-a06defc8-d271-4775-8a12-c9c568ca5f8b.png)
+![Captura de Tela 2023-12-07 às 15 43 44](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/3117c0cc-8c2b-4f55-9c73-119456723fcb)
 
 > The state pattern is a behavioral pattern that allows an object to change its behavior at runtime. It does so by changing its current state. Here, “state” means the set of data that describes how a given object should behave at a given time.
 
@@ -123,7 +117,7 @@ You can read more about this Design Pattern at the link: https://www.raywenderli
 
 ## Design System
 
-![Captura de Tela 2022-08-27 às 14 49 58](https://user-images.githubusercontent.com/30445599/187042107-98f0b8cf-19b1-4406-99cf-4369794ce2db.png)
+![Captura de Tela 2023-12-07 às 15 41 39](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/3046b60e-8064-4fda-a62c-5e3cfa06b60e)
 
 ### Which is?
 Design System is a set of a company's design and content libraries created and maintained by the Design and Technology teams.
@@ -159,7 +153,7 @@ Codables conform to Decodables and Encodables protocols, each with its own parti
 
 Below is an example of the Decodable type.
 
-![Captura de Tela 2022-08-27 às 15 43 20](https://user-images.githubusercontent.com/30445599/187043962-bfe8f007-dbdb-443e-ac14-440b93b8042a.png)
+![Captura de Tela 2023-12-07 às 15 40 41](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/076034d7-3524-4426-bfa6-7ef0a659649b)
 
 But we still have a problem, we couldn't create a specific network layer per API call, so it would need to be generic to the point of accepting and knowing how to convert any JSON into any Decodable object within our project.
 
@@ -173,7 +167,7 @@ Where the Network protocol accepts any object "Represented by the T in the pictu
 
 And for UseCase to know exactly which object it will receive, just inform the expected object in the protocol response above.
 
-![Captura de Tela 2022-08-27 às 15 47 38](https://user-images.githubusercontent.com/30445599/187044128-9c4473cb-7ba7-4c0b-a74d-244c62450a9b.png)
+![Captura de Tela 2023-12-07 às 15 39 29](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/8a7f6023-d6e4-42ff-8a56-5df09274173f)
 
 ## Modularization strategy
 
@@ -195,6 +189,6 @@ The Test Project seeks to be a mirror of the main project's architecture, taking
 
 Tests are performed by overriding which layer implements interface X or Y to handle the expected result.
 
-![Captura de Tela 2022-08-27 às 15 06 51](https://user-images.githubusercontent.com/30445599/187042714-05225d7a-e511-4d0e-b056-d85642df9c88.png)
+![Captura de Tela 2023-12-07 às 15 37 50](https://github.com/LucasCarvalho00/iFood-ViewCode/assets/30445599/cc8abe32-7c98-41b2-b647-90a82b04a015)
 
 As in the example above, where the UseCase receives a new layer of Network at its initialization, allowing its function to be executed without undergoing code changes and we have a controlled result
