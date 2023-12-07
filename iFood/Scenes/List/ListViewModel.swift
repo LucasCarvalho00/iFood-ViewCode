@@ -31,8 +31,12 @@ class ListViewModel {
     
     // MARK: Private Functions
     
-    private func callService() {
+    private func initScreen() {
         viewController?.setupUI(state: .isLoading(isLoading: true))
+        callService()
+    }
+    
+    private func callService() {
         topRatedMoviesUseCase.getTopRatedMovies { [weak self] result in
             switch result {
             case let .success(response):
@@ -77,6 +81,6 @@ class ListViewModel {
 
 extension ListViewModel: ListViewModelProtocol {
     func viewDidLoad() {
-        callService()
+        initScreen()
     }
 }
