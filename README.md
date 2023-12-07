@@ -37,11 +37,6 @@ Where each layer of the architecture has its responsibility defined.
 
   * Layer containing Layout rules and states for each screen
   
-### Vantages of Architecture:
-
-  As the proposal of this architecture was that each layer had a well-defined function. the implementation of tests will be facilitated and the maintenance of the architecture as well.
-  Since each module only expects one result to be loaded. I can, for example, change the way the networking layer makes HTTPS calls with minimal impact within the viewmodels, I can change data persistence, return mocks to do tests and etc. All this with minimal effort.
-
 ## Application Modules
 
 * App
