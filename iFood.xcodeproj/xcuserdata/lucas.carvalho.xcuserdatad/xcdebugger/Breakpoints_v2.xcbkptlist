@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5FC28CE9-5C85-4460-90EF-33D49DBAB50B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0602DB35-CD92-41F5-8B4C-782FBCD75EFA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Will/Scenes/List/Content/ListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "setLoadingView(isLoading:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5288784D-C692-4D1C-8DB8-A92429CC6E38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/ListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "setupUI(state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5288784D-C692-4D1C-8DB8-A92429CC6E38 - 25cb220df11ea8b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasDataTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "5288784D-C692-4D1C-8DB8-A92429CC6E38 - 25cb220df11eaf49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasDataTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32070C49-E4B6-47A7-A8E0-E59F28FF97C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/ListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "setupUI(state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32070C49-E4B6-47A7-A8E0-E59F28FF97C7 - fbe8ba43b9db649b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "32070C49-E4B6-47A7-A8E0-E59F28FF97C7 - fbe8ba43b9db664d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC4C6479-11DE-47BD-B90A-3CADDE883EA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/ListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "setupUI(state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC4C6479-11DE-47BD-B90A-3CADDE883EA1 - fbe8ba43b9db64d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "BC4C6479-11DE-47BD-B90A-3CADDE883EA1 - fbe8ba43b9db668b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05BC8ACC-19B1-418A-BB56-14A10270473F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/ListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "setupUI(state:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "05BC8ACC-19B1-418A-BB56-14A10270473F - fbe8ba43b9db647c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "05BC8ACC-19B1-418A-BB56-14A10270473F - fbe8ba43b9db662e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WillTests.ListViewModelHasErrorTests.setupUI(state: Will.ListState) -&gt; ()"
+                  moduleName = "WillTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.carvalho/Developer/Will/WillTests/ListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04947CD6-5BFA-485C-B4A7-A5916A08D3AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/TopRatedMoviesUseCaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "testTopRatedUseCaseSuccessfully()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC07907-52A4-47DA-A2EC-6E1E6E70E350"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/TopRatedMoviesUseCaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "testTopRatedUseCaseSuccessfully()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06FFCC4A-3F81-4F2E-AA6B-03E04631819C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WillTests/TopRatedMoviesUseCaseTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "testTopRatedUseCaseError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5D6C70A2-1045-4071-827B-01596C0D33C2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BC431DE-7842-4AA2-B019-3FACC1F8B5EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iFood/Foundation/Networking/NetworkOperation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "executeNetwork(request:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BC431DE-7842-4AA2-B019-3FACC1F8B5EB - ac5393643ef4ff62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/Will/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+               <Location
+                  uuid = "2BC431DE-7842-4AA2-B019-3FACC1F8B5EB - ac5393643ef4ff62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/Will/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1500">
+               </Location>
+               <Location
+                  uuid = "2BC431DE-7842-4AA2-B019-3FACC1F8B5EB - 4e73a69134706705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "generic specialization &lt;iFood.ListRequests&gt; of function signature specialization &lt;Arg[0] = Existential To Protocol Constrained Generic&gt; of generic specialization &lt;iFood.TopRatedMoviesResponse&gt; of iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/iFood/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "2BC431DE-7842-4AA2-B019-3FACC1F8B5EB - 4e73a69134706705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "generic specialization &lt;iFood.ListRequests&gt; of function signature specialization &lt;Arg[0] = Existential To Protocol Constrained Generic&gt; of generic specialization &lt;iFood.TopRatedMoviesResponse&gt; of iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/iFood/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39EE1EC8-CD7F-419F-9C3F-F1358797856D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iFood/Foundation/Networking/NetworkOperation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "executeNetwork(request:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "39EE1EC8-CD7F-419F-9C3F-F1358797856D - 4e73a69134706705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "generic specialization &lt;iFood.ListRequests&gt; of function signature specialization &lt;Arg[0] = Existential To Protocol Constrained Generic&gt; of generic specialization &lt;iFood.TopRatedMoviesResponse&gt; of iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/iFood/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "39EE1EC8-CD7F-419F-9C3F-F1358797856D - 4e73a69134706705"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "generic specialization &lt;iFood.ListRequests&gt; of function signature specialization &lt;Arg[0] = Existential To Protocol Constrained Generic&gt; of generic specialization &lt;iFood.TopRatedMoviesResponse&gt; of iFood.NetworkOperation.executeNetwork&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(request: iFood.RequestProtocol, completion: (Swift.Result&lt;&#x3c4;_0_0, iFood.NetworkOperationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "iFood"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas.decarvalho/Developer/iFood/iFood/Foundation/Networking/NetworkOperation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "816">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  iFood
+
+  Created by Lucas Carvalho on 07/12/23.
+  
+*/
+
+"Pesquisar" = "Pesquisar";
+"Listagem de Filmes" = "Listagem de Filmes";
+"Recarregar informações" = "Recarregar informações";
+"No momento não foi possível mostrar as informações. Que tal tentar novamente?" = "No momento não foi possível mostrar as informações. Que tal tentar novamente?";
+"RECARREGAR" = "RECARREGAR";
+"Gênero" = "Gênero";
+"Data de Lançamento" = "Data de Lançamento";
+"Lista de filmes" = "Lista de filmes";
+"Detalhe do filme" = "Detalhe do filme";
+"Nome" = "Nome";
+"Gênero" = "Gênero";
+"Data de Lançamento" = "Data de Lançamento";
+"Visão Geral" = "Visão Geral";
