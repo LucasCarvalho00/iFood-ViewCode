@@ -9,35 +9,19 @@ import UIKit
 
 extension UIView {
     var safeTopAnchor: NSLayoutYAxisAnchor {
-        if #available(iOS 11.0, *) {
-            return self.safeAreaLayoutGuide.topAnchor
-        }
-
-        return self.topAnchor
+        return self.safeAreaLayoutGuide.topAnchor
     }
     
     var safeLeadingAnchor: NSLayoutXAxisAnchor {
-      if #available(iOS 11.0, *) {
         return self.safeAreaLayoutGuide.leadingAnchor
-      }
-
-        return self.leftAnchor
     }
      
     var safeTrailingAnchor: NSLayoutXAxisAnchor {
-      if #available(iOS 11.0, *) {
         return self.safeAreaLayoutGuide.trailingAnchor
-      }
-
-        return self.rightAnchor
     }
     
     var safeBottomAnchor: NSLayoutYAxisAnchor {
-        if #available(iOS 11.0, *) {
-            return self.safeAreaLayoutGuide.bottomAnchor
-        }
-
-        return self.bottomAnchor
+        return self.safeAreaLayoutGuide.bottomAnchor
     }
 
     

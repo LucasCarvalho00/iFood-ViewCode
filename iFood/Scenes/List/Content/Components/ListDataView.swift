@@ -18,6 +18,7 @@ final class ListDataView: UIView {
     // MARK: - Constants
     
     private struct Metrics {
+        static let minimumHeightCell: CGFloat = 0.01
         static let lineSeparatorViewHeight: CGFloat = 30.0
         static let searchTextFieldHeight: CGFloat = 40.0
         static let cellHeight: CGFloat = 200.0
@@ -52,6 +53,7 @@ final class ListDataView: UIView {
         let textField = SearchTextField()
         textField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.delegate = self
         return textField
     }()
 
@@ -159,15 +161,22 @@ extension ListDataView: UITableViewDataSource {
             return UITableViewCell()
         }
         cell.setupUI(data: filteredFilms[indexPath.row])
-        endEditing(true)
         return cell
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        return UIView(frame: CGRect(x: 0, y: 0, width: itemsTableView.frame.size.width, height: 0.01))
+        return UIView(frame: CGRect(x: 0, y: 0, width: itemsTableView.frame.size.width, height: Metrics.minimumHeightCell))
     }
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        return UIView(frame: CGRect(x: 0, y: 0, width: itemsTableView.frame.size.width, height: 0.01))
+        return UIView(frame: CGRect(x: 0, y: 0, width: itemsTableView.frame.size.width, height: Metrics.minimumHeightCell))
+    }
+}
+
+extension ListDataView: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        endEditing(true)
+       return true
     }
 }
