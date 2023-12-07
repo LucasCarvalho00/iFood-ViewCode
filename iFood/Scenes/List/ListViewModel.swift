@@ -10,9 +10,9 @@ import UIKit
 class ListViewModel {
 
     // MARK: - Constants
-
+    
     private enum Constants {
-        static let posterPath: String = "https://image.tmdb.org/t/p/w500"
+        static let posterPath = "PosterPath"
     }
     
     // MARK: - Public Attributes
@@ -54,11 +54,16 @@ class ListViewModel {
                                      
     private func makeTopRatedMovieList(results: [TopRatedListResults]) -> [TopRatedMovieList] {
         var list: [TopRatedMovieList] = []
+        
+        guard let urlPosterPath = Bundle.main.object(forInfoDictionaryKey: Constants.posterPath), let posterPath = urlPosterPath as? String else {
+            return list
+        }
+        
         results.forEach { item in
             list.append(TopRatedMovieList(
                 popularity: item.popularity,
                 voteCount: item.voteCount,
-                posterPath: Constants.posterPath + item.posterPath,
+                posterPath: posterPath + item.posterPath,
                 genreIds: item.genreIds,
                 title: item.title,
                 overview: item.overview,

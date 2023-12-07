@@ -6,6 +6,8 @@
 	<string>DEV</string>
 	<key>BaseURL</key>
 	<string>https://api.themoviedb.org/3/</string>
+	<key>PosterPath</key>
+	<string>https://image.tmdb.org/t/p/w500</string>
 	<key>KeyURL</key>
 	<string>?api_key=bcd6c2c21e1e75b74d1e2d38ddc9fe0b</string>
 	<key>UIApplicationSceneManifest</key>
